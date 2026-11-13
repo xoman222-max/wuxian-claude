@@ -37,18 +37,20 @@ description: 使用者的個人知識庫「無限」。涉及 AI 圖像／影片
 
 如果沒有 GitHub connector，就用 grep 搜這個 Skill 的 `references/` 快照，並告訴使用者這是 11-13 的版本，之後新收的卡片看不到。
 
-| 卷 | 檔名 | 內容 |
-|---|---|---|
-| 01 | 01_無限系統與AI工作流.md | 知識管理規則、Codex 用法、跨模型提示詞組織 |
-| 02 | 02_人像時尚寫真提示詞.md | 人像、泳裝、漢服、Cosplay、GPT Image 2 寫實與安全改寫 |
-| 03 | 03_東方仙俠天境.md | 天宮、三十三重天、巨構仙境、仙俠構圖與運鏡 |
-| 04 | 04_AI影片製作.md | Seedance、分鏡、漫劇、換裝短片、ComfyUI、運鏡動作庫 |
-| 05 | 05_小說寫作.md | 星門裡的拳術師、靈網大陸、長篇規格、去 AI 味、微表情 |
-| 06 | 06_變現與流量.md | X 變現與長文、SEO/AdSense、Airtap 選題、AI 收入路徑 |
-| 07 | 07_設計海報電商圖.md | 長文轉海報、電商圖、平台視覺模板、PPT |
-| 08 | 08_加密貨幣雷達.md | Bybit 掃描、啟動雷達（歷史紀錄） |
-| 09 | 09_GitHub工具與Repo研究.md | Agent、Skills、各種 repo 研究 |
-| 10 | 10_提示詞庫PromptLibrary.md | 241 筆提示詞，用搜尋找 |
+repo 的檔名是中文；Skill 快照的檔名是英文。兩邊的內容相同。
+
+| 卷 | repo 檔名（volumes/） | 快照檔名（references/） | 內容 |
+|---|---|---|---|
+| 01 | 01_無限系統與AI工作流.md | 01_system.md | 知識管理規則、Codex 用法、跨模型提示詞組織 |
+| 02 | 02_人像時尚寫真提示詞.md | 02_portrait.md | 人像、泳裝、漢服、Cosplay、GPT Image 2 寫實與安全改寫 |
+| 03 | 03_東方仙俠天境.md | 03_xianxia.md | 天宮、三十三重天、巨構仙境、仙俠構圖與運鏡 |
+| 04 | 04_AI影片製作.md | 04_video.md | Seedance、分鏡、漫劇、換裝短片、ComfyUI、運鏡動作庫 |
+| 05 | 05_小說寫作.md | 05_novel.md | 星門裡的拳術師、靈網大陸、長篇規格、去 AI 味、微表情 |
+| 06 | 06_變現與流量.md | 06_growth.md | X 變現與長文、SEO/AdSense、Airtap 選題、AI 收入路徑 |
+| 07 | 07_設計海報電商圖.md | 07_design.md | 長文轉海報、電商圖、平台視覺模板、PPT |
+| 08 | 08_加密貨幣雷達.md | 08_crypto.md | Bybit 掃描、啟動雷達（歷史紀錄） |
+| 09 | 09_GitHub工具與Repo研究.md | 09_github_tools.md | Agent、Skills、各種 repo 研究 |
+| 10 | 10_提示詞庫PromptLibrary.md | 10_prompt_library.md | 241 筆提示詞，用搜尋找 |
 
 ## 收進無限（寫入）
 
